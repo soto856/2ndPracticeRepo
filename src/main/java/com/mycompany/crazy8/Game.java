@@ -59,7 +59,7 @@ public class Game {
             current.takeTurn(discard, deck, currentSuit);
 
             if (current.hasWon()) {
-                log.append("********** ").append(current.getName()).append(" won ***********\n");
+                log.append("-------- ").append(current.getName()).append(" won ***********\n");
                 break;
             }
 
